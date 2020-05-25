@@ -10244,8 +10244,16 @@ body {
 }*/
 
 .masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
   padding-top: 5rem;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 1.8) 100%, rgba(0, 0, 0, 0.9) 70%, #000000 0%);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 
