@@ -555,22 +555,22 @@ pre code {
   margin-left: auto;
   max-width: 540px;
 }
-@media (min-width: 576px) {
+@media (min-width: 56px) {
   .container {
     max-width: 540px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 78px) {
   .container {
     max-width: 720px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   .container {
     max-width: 960px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 120px) {
   .container {
     max-width: 1140px;
   }
@@ -584,22 +584,22 @@ pre code {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 76px) {
   .container-sm, .container {
     max-width: 540px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 78px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 120px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
   }
@@ -840,7 +840,7 @@ pre code {
   margin-left: 91.6666666667%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 176px) {
   .col-sm {
     flex-basis: 0;
     flex-grow: 1;
@@ -1052,7 +1052,7 @@ pre code {
     margin-left: 91.6666666667%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 268px) {
   .col-md {
     flex-basis: 0;
     flex-grow: 1;
@@ -1264,7 +1264,7 @@ pre code {
     margin-left: 91.6666666667%;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   .col-lg {
     flex-basis: 0;
     flex-grow: 1;
@@ -1476,7 +1476,7 @@ pre code {
     margin-left: 91.6666666667%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 120px) {
   .col-xl {
     flex-basis: 0;
     flex-grow: 1;
@@ -1965,7 +1965,7 @@ pre code {
   background-color: rgba(255, 255, 255, 0.075);
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 55.98px) {
   .table-responsive-sm {
     display: block;
     width: 100%;
@@ -1976,7 +1976,7 @@ pre code {
     border: 0;
   }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 77.98px) {
   .table-responsive-md {
     display: block;
     width: 100%;
@@ -1987,7 +1987,7 @@ pre code {
     border: 0;
   }
 }
-@media (max-width: 991.98px) {
+@media (max-width: 91.98px) {
   .table-responsive-lg {
     display: block;
     width: 100%;
@@ -1998,7 +1998,7 @@ pre code {
     border: 0;
   }
 }
-@media (max-width: 1199.98px) {
+@media (max-width: 119.98px) {
   .table-responsive-xl {
     display: block;
     width: 100%;
@@ -3120,7 +3120,7 @@ input[type=button].btn-block {
   left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 56px) {
   .dropdown-menu-sm-left {
     right: auto;
     left: 0;
@@ -3131,7 +3131,7 @@ input[type=button].btn-block {
     left: auto;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 78px) {
   .dropdown-menu-md-left {
     right: auto;
     left: 0;
@@ -3142,7 +3142,7 @@ input[type=button].btn-block {
     left: auto;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   .dropdown-menu-lg-left {
     right: auto;
     left: 0;
@@ -3153,7 +3153,7 @@ input[type=button].btn-block {
     left: auto;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 120px) {
   .dropdown-menu-xl-left {
     right: auto;
     left: 0;
@@ -4226,7 +4226,7 @@ input[type=button].btn-block {
     display: none;
   }
 }
-@media (max-width: 991.98px) {
+@media (max-width: 91.98px) {
   .navbar-expand-lg > .container,
 .navbar-expand-lg > .container-fluid,
 .navbar-expand-lg > .container-sm,
@@ -4237,11 +4237,11 @@ input[type=button].btn-block {
     padding-left: 0;
   }
 }
-/* @media (min-width: 992px) {
+@media (min-width: 92px) {
   .navbar-expand-lg {
     flex-flow: row nowrap;
     justify-content: flex-start;
-  } */
+  }
   .navbar-expand-lg .navbar-nav {
     flex-direction: row;
   }
@@ -4268,7 +4268,7 @@ input[type=button].btn-block {
     display: none;
   }
 }
-@media (max-width: 1199.98px) {
+@media (max-width: 119.98px) {
   .navbar-expand-xl > .container,
 .navbar-expand-xl > .container-fluid,
 .navbar-expand-xl > .container-sm,
@@ -4279,7 +4279,7 @@ input[type=button].btn-block {
     padding-left: 0;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 120px) {
   .navbar-expand-xl {
     flex-flow: row nowrap;
     justify-content: flex-start;
