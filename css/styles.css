@@ -553,6 +553,7 @@ pre code {
   padding-left: 0.75rem;
   margin-right: auto;
   margin-left: auto;
+  max-width: 540px;
 }
 @media (min-width: 576px) {
   .container {
@@ -4236,11 +4237,11 @@ input[type=button].btn-block {
     padding-left: 0;
   }
 }
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .navbar-expand-lg {
     flex-flow: row nowrap;
     justify-content: flex-start;
-  }
+  } */
   .navbar-expand-lg .navbar-nav {
     flex-direction: row;
   }
@@ -10408,6 +10409,26 @@ body {
     margin-top: 0;
   }
 }
+
+/*// Styling for the team section*/
+.team-member-others {
+  margin-bottom: 20px;
+  text-align: center;
+  img {
+    width: 225px;
+    height: 225px;
+    border: 7px solid fade-out($black, 0.9);
+  }
+  h4 {
+    margin-top: 5px;
+    margin-bottom: 0;
+    text-transform: none;
+  }
+  p {
+    margin-top: 0;
+  }
+}
+
 .footer {
   padding: 5rem 0;
 }
