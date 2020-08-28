@@ -566,3 +566,41 @@ section {
 #footer .credits a {
   color: #36d8c3;
 }
+
+
+/* Coming soon */
+
+
+.comingsoon {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size:2em;
+  /* letter-spacing: 4px; */
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+
+  text-align: center; 
+  align-content: center; 
+  /* color:#36d8c3;  */
+  letter-spacing: 1.8rem; 
+  font-size:1rem; 
+  padding-top: 6rem; 
+  padding-bottom: 6rem;"
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+
